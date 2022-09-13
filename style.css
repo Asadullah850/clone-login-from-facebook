@@ -1,0 +1,74 @@
+:root{
+    --text-color:#000000;
+    --background-color:#F0F2F5;
+    --loginButton-color:#166FE5;
+    --newButton-color:#36A420;
+}
+.loginFrom{
+    background-color: var(--background-color);
+    height: 650px;
+    width: 100%;
+}
+.left-contain{
+    width: 300px;
+    height: 200px;
+    /* background-color: #000000; */
+    margin: auto;
+    padding-top: 100px;
+}
+.left-contain h1{
+    margin-bottom: 10px;
+    font-size: 4em;
+    color: var(--loginButton-color);
+}
+.left-contain h3{
+    font-size: 1.2em;
+    color: var(--text-color);
+}
+.right-contain{
+    padding-top: 20%;
+    text-align: center;
+}
+.from{
+    height: 280px;
+    width: 300px;
+    background-color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: #180b0b 1px 1px 17px 0px;
+}
+.from input{
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid #d9dfe9;
+    border-radius: 4px;
+    width: 90%;
+    font-size: 1.3em;
+}
+.from input:focus{
+    outline:  .5px solid #004bc4;
+}
+.loginbutt{
+    width: 90%;
+    margin-top: 5px;
+    background-color: var(--loginButton-color);
+    color: #FFFFFF;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.loginbutt:hover{
+    color: #FFFFFF;
+    background-color: #004bc4;
+}
+.newAccountbutt{
+    width: 90%;
+    background-color: var(--newButton-color);
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+.newAccountbutt:hover{
+    color: #FFFFFF;
+    background-color:#228f0c;
+}
